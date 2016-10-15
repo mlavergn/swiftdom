@@ -11,7 +11,7 @@ Setup libxml2:
 
 Build:
 
-	swift build -Xcc -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libxml2/
+	swift build -Xcc -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
 
 Run:
 
