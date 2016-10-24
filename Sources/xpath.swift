@@ -20,8 +20,3 @@ class DOM:NSObject {
     // let xpathObj = libxml2.xmlXPathEvalExpression((xmlChar *)[query cStringUsingEncoding:NSUTF8StringEncoding], xpathCtx)
   }
 }
-
-func xpath(data:Data) {
-  let dom = DOM()
-  dom.setData(data:data)
-}

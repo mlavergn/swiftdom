@@ -62,8 +62,3 @@ class XPDOM:NSObject, XMLParserDelegate {
     print("parserDidEndDocument")
   }
 }
-
-func xmlParser(contents:String) {
-  let dom = XPDOM()
-  dom.setContents(contents:contents)
-}
