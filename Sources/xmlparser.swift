@@ -4,7 +4,7 @@ import Foundation
 // XMLParser only works on strict formatted HTML
 //
 
-class DOM:NSObject, XMLParserDelegate {
+class XPDOM:NSObject, XMLParserDelegate {
   var parser:XMLParser!
 
   //
@@ -64,6 +64,6 @@ class DOM:NSObject, XMLParserDelegate {
 }
 
 func xmlParser(contents:String) {
-  let dom = DOM()
+  let dom = XPDOM()
   dom.setContents(contents:contents)
 }
