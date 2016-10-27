@@ -1,5 +1,10 @@
 //: Playground - noun: a place where people can play
 
-import Cocoa
+import Foundation
+//import XDDom
 
-var str = "Hello, playground"
+let contents = try! String(contentsOf:URL(string:"https://www.google.com")!)
+var dom :XDDOM = XDDOM()
+dom.setContents(html:contents)
+
+print(dom.find(tag:"link", attributes:nil))
